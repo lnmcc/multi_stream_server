@@ -12,13 +12,13 @@ INTSIG() {
 }
 
 START_STREAM() {
-#	./stream_net.sh &
-#	netpid=$!
-#	echo "net pid="$netpid
+	./stream_net.sh &
+	netpid=$!
+	echo "net pid="$netpid
 
-#	./stream_camera.sh &
-#	camerapid=$!
-#	echo "camera pid="$camerapid
+	./stream_camera.sh &
+	camerapid=$!
+	echo "camera pid="$camerapid
 
 	./stream_tv.sh &
 	tvpid=$!
